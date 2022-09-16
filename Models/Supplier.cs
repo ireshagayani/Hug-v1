@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Client : BaseModel
+    public class Supplier : BaseModel
     {
         public string Name { get; set; }
-        public IList<Contact> Contacts { get; set; }
+        public string Code { get; set; }
         public Address Address { get; set; }
+        public IList<Contact> Contacts { get; set; }
     }
 }

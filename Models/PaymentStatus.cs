@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Contact
+    public class PaymentStatus : BaseModel
     {
-        public ContactType ContactType { get; set; }
-        public string ContactValue { get; set; }
+        public int Name { get; set; }
     }
 }
